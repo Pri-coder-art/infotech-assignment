@@ -1,8 +1,6 @@
 import React, { useState, useMemo } from "react";
 import data from "./data.json";
 
-const SAMPLE_IMAGE_URL = "";
-
 const App = () => {
   const [filters, setFilters] = useState({
     search: "",
